@@ -2,14 +2,11 @@
 
 spawn-random is a very reliable library for generating passwords
 
-
-[![Build Status](https://api.travis-ci.org/bermi/password-generator.svg)](http://travis-ci.org/bermi/password-generator)  
-
+[![Build Status](https://api.travis-ci.org/bermi/password-generator.svg)](http://travis-ci.org/bermi/password-generator)
 
 ## Installation
 
     $ npm install spawn-password --save
-
 
 ## Usage
 
@@ -18,29 +15,32 @@ spawn-random is a very reliable library for generating passwords
 This creates a random password that consists of alphabets,numbers and symbols with a random length
 
 ```javascript
-const spawn = require('spawn-password');
+const spawn = require("spawn-password");
 
 let spawned_password = spawn();
-
 
 console.log(spawn_password);
 ```
 
-#### `spawnWithLength(length)`
-This cretaes a random passowrd that consists of alphabets,numbers and symbols with a specified length
-```javascript
-const spawn = require('spawn-password');
+#### `spawnLength(length)`
 
-let spawned_password = spawnWithLength(15);
+This cretaes a random passowrd that consists of alphabets,numbers and symbols with a specified length
+
+```javascript
+const spawn = require("spawn-password");
+
+let spawned_password = spawnLength(15);
 
 // snF78sl03P>ha$o
 console.log(spawned_passwords);
 ```
+
 ### `spawnAlpha()`
+
 This creates a random length password that consists of only alphabets
 
 ```javascript
-const spawn = require('spawn-password');
+const spawn = require("spawn-password");
 
 let spawned_password = spawnAlpha();
 
@@ -49,10 +49,11 @@ console.log(spawned_passwords);
 ```
 
 ### `spawnAlphaLength(length)`
+
 This creates a random password of specified length that consists of only alphabets
 
 ```javascript
-const spawn = require('spawn-password');
+const spawn = require("spawn-password");
 
 let spawned_password = spawnAlphaLength(15);
 
@@ -61,10 +62,11 @@ console.log(spawned_passwords);
 ```
 
 ### `spawnAlphaNumeric()`
-This creates a random password  that consists of  alphabets and Numbers
+
+This creates a random password that consists of alphabets and Numbers
 
 ```javascript
-const spawn = require('spawn-password');
+const spawn = require("spawn-password");
 
 let spawned_password = spawnAlphaNumeric();
 
@@ -73,21 +75,24 @@ console.log(spawned_passwords);
 ```
 
 ### `spawnAlphaNumericLength(length)`
-This creates a random password of specified length  that consists of  alphabets and Numbers
+
+This creates a random password of specified length that consists of alphabets and Numbers
 
 ```javascript
-const spawn = require('spawn-password');
+const spawn = require("spawn-password");
 
 let spawned_password = spawnAlphaNumericLength(10);
 
 // 92nH03Lp5
 console.log(spawned_passwords);
 ```
+
 ### `spawnAlphaSymbol()`
-This creates a random password  that consists of  alphabets and Symbols
+
+This creates a random password that consists of alphabets and Symbols
 
 ```javascript
-const spawn = require('spawn-password');
+const spawn = require("spawn-password");
 
 let spawned_password = spawnAlphaSymbol();
 
@@ -96,10 +101,11 @@ console.log(spawned_passwords);
 ```
 
 ### `spawnAlphaSymmbolLength(length)`
-This creates a random password of specified length  that consists of  Alphabets and Symbols
+
+This creates a random password of specified length that consists of Alphabets and Symbols
 
 ```javascript
-const spawn = require('spawn-password');
+const spawn = require("spawn-password");
 
 let spawned_password = spawnAlphaSymbolLength(10);
 
