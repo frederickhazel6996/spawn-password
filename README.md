@@ -19,7 +19,7 @@ const spawn = require("spawn-password");
 
 let spawned_password = spawn();
 
-console.log(spawn_password);
+console.log(spawned_password);
 ```
 
 ### `spawnLength(length)`
@@ -32,7 +32,7 @@ const spawn = require("spawn-password");
 let spawned_password = spawnLength(15);
 
 // snF78sl03P>ha$o
-console.log(spawned_passwords);
+console.log(spawned_password);
 ```
 
 ### `spawnAlpha()`
@@ -45,7 +45,7 @@ const spawn = require("spawn-password");
 let spawned_password = spawnAlpha();
 
 // mskAnsTiPsjU
-console.log(spawned_passwords);
+console.log(spawned_password);
 ```
 
 ### `spawnAlphaLength(length)`
@@ -57,8 +57,8 @@ const spawn = require("spawn-password");
 
 let spawned_password = spawnAlphaLength(15);
 
-// slfjhetAnEmLstak
-console.log(spawned_passwords);
+// slfjhetAnEmLsta
+console.log(spawned_password);
 ```
 
 ### `spawnAlphaNumeric()`
@@ -71,7 +71,7 @@ const spawn = require("spawn-password");
 let spawned_password = spawnAlphaNumeric();
 
 // 6J8snms09I7T
-console.log(spawned_passwords);
+console.log(spawned_password);
 ```
 
 ### `spawnAlphaNumericLength(length)`
@@ -84,7 +84,7 @@ const spawn = require("spawn-password");
 let spawned_password = spawnAlphaNumericLength(10);
 
 // 92nH03Lp5
-console.log(spawned_passwords);
+console.log(spawned_password);
 ```
 
 ### `spawnAlphaSymbol()`
@@ -97,7 +97,7 @@ const spawn = require("spawn-password");
 let spawned_password = spawnAlphaSymbol();
 
 // H*mn$nsU&
-console.log(spawned_passwords);
+console.log(spawned_password);
 ```
 
 ### `spawnAlphaSymmbolLength(length)`
@@ -110,5 +110,5 @@ const spawn = require("spawn-password");
 let spawned_password = spawnAlphaSymbolLength(10);
 
 // p*o^GHb$#m
-console.log(spawned_passwords);
+console.log(spawned_password);
 ```
