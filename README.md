@@ -10,7 +10,7 @@ spawn-random is a very reliable library for generating passwords
 
 ## Usage
 
-#### `spawn()`
+### `spawn()`
 
 This creates a random password that consists of alphabets,numbers and symbols with a random length
 
@@ -22,7 +22,7 @@ let spawned_password = spawn();
 console.log(spawn_password);
 ```
 
-#### `spawnLength(length)`
+### `spawnLength(length)`
 
 This cretaes a random passowrd that consists of alphabets,numbers and symbols with a specified length
 
