@@ -17,7 +17,7 @@ This creates a random password that consists of alphabets,numbers and symbols wi
 ```javascript
 const spawn = require("spawn-password");
 
-let spawned_password = spawn();
+let spawned_password = spawn.spawn();
 
 console.log(spawned_password);
 ```
@@ -29,7 +29,7 @@ This cretaes a random passowrd that consists of alphabets,numbers and symbols wi
 ```javascript
 const spawn = require("spawn-password");
 
-let spawned_password = spawnLength(15);
+let spawned_password = spawn.spawnLength(15);
 
 // snF78sl03P>ha$o
 console.log(spawned_password);
@@ -42,7 +42,7 @@ This creates a random length password that consists of only alphabets
 ```javascript
 const spawn = require("spawn-password");
 
-let spawned_password = spawnAlpha();
+let spawned_password = spawn.spawnAlpha();
 
 // mskAnsTiPsjU
 console.log(spawned_password);
@@ -55,7 +55,7 @@ This creates a random password of specified length that consists of only alphabe
 ```javascript
 const spawn = require("spawn-password");
 
-let spawned_password = spawnAlphaLength(15);
+let spawned_password = spawn.spawnAlphaLength(15);
 
 // slfjhetAnEmLsta
 console.log(spawned_password);
@@ -68,7 +68,7 @@ This creates a random password that consists of alphabets and Numbers
 ```javascript
 const spawn = require("spawn-password");
 
-let spawned_password = spawnAlphaNumeric();
+let spawned_password = spawn.spawnAlphaNumeric();
 
 // 6J8snms09I7T
 console.log(spawned_password);
@@ -81,7 +81,7 @@ This creates a random password of specified length that consists of alphabets an
 ```javascript
 const spawn = require("spawn-password");
 
-let spawned_password = spawnAlphaNumericLength(10);
+let spawned_password = spawn.spawnAlphaNumericLength(10);
 
 // 92nH03Lp5
 console.log(spawned_password);
@@ -94,7 +94,7 @@ This creates a random password that consists of alphabets and Symbols
 ```javascript
 const spawn = require("spawn-password");
 
-let spawned_password = spawnAlphaSymbol();
+let spawned_password = spawn.spawnAlphaSymbol();
 
 // H*mn$nsU&
 console.log(spawned_password);
@@ -107,7 +107,7 @@ This creates a random password of specified length that consists of Alphabets an
 ```javascript
 const spawn = require("spawn-password");
 
-let spawned_password = spawnAlphaSymbolLength(10);
+let spawned_password = spawn.spawnAlphaSymbolLength(10);
 
 // p*o^GHb$#m
 console.log(spawned_password);
