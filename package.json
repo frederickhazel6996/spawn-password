@@ -1,6 +1,6 @@
 {
     "name": "spawn-password",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Simple and Reliable library for generating random strings that can be used as passwords",
     "main": "spawn.js",
     "scripts": {
