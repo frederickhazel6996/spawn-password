@@ -1,6 +1,6 @@
 # spawn-password
 
-spawn-random is a very reliable library for generating passwords
+spawn-random is a very reliable and simple library for generating passwords
 
 ![](https://img.shields.io/npm/v/spawn-password) ![](https://img.shields.io/npm/l/spawn-password)
 
